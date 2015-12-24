@@ -3,10 +3,8 @@ var AppRouter = Backbone.Router.extend({
 
   routes: {
     '': 'landing',
-  },
-
-  landing: function() {
-
-  },
+    '/api/cohort/:cohort': 'renderByCohort',
+    '/api/students/:id': 'renderByStudentId'
+  }
 
 });

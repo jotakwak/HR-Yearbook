@@ -4,6 +4,7 @@ var LandingView = Backbone.View.extend({
   },
 
   render: function() {
+  	this.$el.html('The Beautiful Faces of Hack Reactor November Cohorts')
   }
 
 });
