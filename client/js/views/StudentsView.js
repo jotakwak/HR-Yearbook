@@ -1,7 +1,5 @@
 var StudentsView = Backbone.View.extend({
 
-  // tagName: 'table',
-
   initialize: function() {
     this.collection.on('fetchSuccess', function(){
     	console.log('heard fetchSuccess signal from Students collection');
