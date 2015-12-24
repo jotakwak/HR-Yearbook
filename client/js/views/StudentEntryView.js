@@ -1,5 +1,5 @@
 var StudentEntryView = Backbone.View.extend({
-	template: _.template('<tr><td><%=name%></td><td><img src="<%=image%>"></td></img></tr>'),
+	template: _.template('<span class="profile"><p><img src="<%=image%>" class="face-photo"</img></p><p class="name"><%=name%></p></span>'),
 
 	initialize: function(){
 		this.render();
