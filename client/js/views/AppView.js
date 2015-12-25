@@ -15,11 +15,7 @@ var AppView = Backbone.View.extend({
 
   },
 
-  renderCohort: function(cohort) {
-  },
-
   renderLanding: function() {
     console.log('rendering the landing page');
-    
   }
 })

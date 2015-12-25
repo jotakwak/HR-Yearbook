@@ -198,6 +198,8 @@ li a:hover {
 .profile {
   dispaly: inline;
   float: left;
+  width: 250px;
+  height: 300px;
   padding: 10px;
 }
 
